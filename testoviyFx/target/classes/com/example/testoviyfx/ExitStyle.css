@@ -1,0 +1,27 @@
+.button{
+    -fx-background-radius: 5;
+    -fx-border-width: 0;
+-fx-border-radius: 5;
+    border-width: 1;
+    -fx-border-color: #222222;
+    border-color: #222222;
+    -fx-background-color: #1A1A1A;
+    background-color: #1A1A1A;
+    -fx-text-fill: #AFB1B3;
+}
+.button:focused{
+    -fx-background-color: #1A1A1A;
+    background-color: #1A1A1A;
+}
+.button:hover{
+    -fx-background-color: #bf0000;
+    background-color: #bf0000;
+    -fx-cursor: HAND;
+    cursor: HAND;
+ }
+.button:pressed{
+    -fx-background-color: #df0000;
+    background-color: #df0000;
+    -fx-cursor: HAND;
+    cursor: HAND;
+}

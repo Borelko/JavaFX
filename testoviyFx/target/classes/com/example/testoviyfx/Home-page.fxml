@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-border-radius: 10; -fx-background-radius: 10;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testoviyfx.Controller">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-border-radius: 10; -fx-background-radius: 10;">
+         <children>
+            <Button layoutX="389.0" layoutY="467.0" mnemonicParsing="false" onAction="#AugmentationButtonClick" prefHeight="70.0" prefWidth="220.0" text="Augmentation" textFill="#fff6d6">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Button>
+            <SVGPath content="m 0,0 v 0.761 c 0,7.43 5.584,13.585 12.955,14.525 50.067,6.383 88.899,49.259 88.899,101.033 v 226.967 h 30 V 116.319 C 131.854,49.179 81.41,-6.403 16.431,-14.516 7.707,-15.604 0,-8.792 0,0" fill="#805c22" layoutX="462.0" layoutY="74.0" rotate="180.0" scaleX="0.75" scaleY="0.75" />
+            <SVGPath content="m 0,0 c -6.038,6.038 -14.709,7.812 -22.313,5.359 l -46.079,46.078 v 51.871 c 7.116,3.641 11.99,11.04 11.99,19.582 0,12.144 -9.845,21.989 -21.99,21.989 -12.144,0 -21.988,-9.845 -21.988,-21.989 0,-8.542 4.873,-15.941 11.988,-19.582 V 52.999 L -134.469,6.921 c -7.604,2.453 -16.275,0.68 -22.313,-5.359 -8.588,-8.587 -8.588,-22.509 0,-31.097 8.587,-8.587 22.51,-8.587 31.097,0 6.038,6.038 7.811,14.71 5.358,22.314 l 41.154,41.154 42.717,-42.717 c -2.453,-7.604 -0.68,-16.275 5.358,-22.313 8.587,-8.587 22.51,-8.587 31.098,0 C 8.587,-22.51 8.587,-8.587 0,0" fill="#c4a233" layoutX="719.0" layoutY="184.0" rotate="180.0" scaleX="0.75" scaleY="0.75" />
+            <SVGPath content="m 0,0 c 0,-8.792 -7.706,-15.604 -16.43,-14.516 -64.98,8.113 -115.424,63.695 -115.424,130.835 v 226.967 h 30 V 116.319 c 0,-51.774 38.831,-94.65 88.9,-101.033 C -5.584,14.346 0,8.191 0,0.761 Z" fill="#805c22" layoutX="820.0" layoutY="74.0" rotate="180.0" scaleX="0.75" scaleY="0.75" />
+            <Button alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="1242.0" layoutY="7.0" mnemonicParsing="false" onAction="#EXITButtonClick" prefHeight="30.0" prefWidth="30.0" stylesheets="@ExitStyle.css">
+               <graphic>
+                  <SVGPath content="M13.414 12l4.95-4.95a1 1 0 0 0-1.414-1.414L12 10.586l-4.95-4.95A1 1 0 0 0 5.636 7.05l4.95 4.95-4.95 4.95a1 1 0 0 0 1.414 1.414l4.95-4.95 4.95 4.95a1 1 0 0 0 1.414-1.414z" fill="#afb1b3" />
+               </graphic>
+            </Button>
+            <Button layoutX="672.0" layoutY="467.0" mnemonicParsing="false" onAction="#WatchLabelsButtonClick" prefHeight="70.0" prefWidth="220.0" text="Watch Labeled images" textFill="#fff6d6">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

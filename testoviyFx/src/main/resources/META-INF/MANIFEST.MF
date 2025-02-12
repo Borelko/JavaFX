@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Main-Class: com.example.testoviyfx.Launcher
+Class-Path: toolboxfx-17.0.33.jar formsfx-core-11.6.0.jar audio-4.0.13.j
+ ar fxgl-io-17.2.jar lifecycle-4.0.13.jar javafx-base-20.jar javafx-web-
+ 20.jar jackson-core-2.12.1.jar bootstrapfx-core-0.4.0.jar javafx-base-2
+ 0-win.jar jackson-databind-2.12.1.jar fxgl-core-17.2.jar fxgl-entity-17
+ .2.jar tilesfx-17.1.17.jar javafx-graphics-20.jar countries-17.0.23.jar
+  javafx-swt.jar javafx.web.jar javafx.base.jar javafx.fxml.jar javafx.m
+ edia.jar javafx.swing.jar javafx.controls.jar javafx.graphics.jar fxgl-
+ 17.2.jar util-4.0.13.jar annotations-13.0.jar javafx-fxml-20-win.jar co
+ ntrolsfx-11.1.2.jar heatmap-17.0.12.jar fxgl-gameplay-17.2.jar validato
+ rfx-0.4.0.jar ikonli-core-12.3.1.jar javafx-controls-20-win.jar toolbox
+ -17.0.35.jar javafx-web-20-win.jar javafx-controls-20.jar javafx-graphi
+ cs-20-win.jar storage-4.0.13.jar kotlin-stdlib-1.6.0-modular.jar fxgl-s
+ cene-17.2.jar ikonli-javafx-12.3.1.jar jackson-annotations-2.12.1.jar k
+ otlin-stdlib-common-1.6.0.jar javafx-media-20-win.jar javafx-fxml-20.ja
+ r javafx-media-20.jar
+
